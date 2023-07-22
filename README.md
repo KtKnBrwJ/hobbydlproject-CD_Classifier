@@ -49,7 +49,7 @@ Now,
 open up you local host and port
 ```
 
-### DVC cmd
+### DVC cmds
 
 1. dvc init
 2. dvc repro
