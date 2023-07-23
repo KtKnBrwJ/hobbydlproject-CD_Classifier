@@ -122,9 +122,9 @@ open up you local host and port
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = <demo-ecr-login-uri>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
-    ECR_REPOSITORY_NAME = simple-app
+    ECR_REPOSITORY_NAME = <ecr-repo-name>
 
 # AZURE-CICD-Deployment-with-Github-Actions
 
@@ -134,6 +134,7 @@ s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 ## Run from terminal:
 
+#docker build -t <login-server-uri>/<project-name/image-name-to-azure>:latest .
 docker build -t chickenapp.azurecr.io/chicken:latest .
 
 docker login chickenapp.azurecr.io
